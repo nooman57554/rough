@@ -1,0 +1,114 @@
+html {
+    font-size: 22px
+}
+body {  
+    color: whitesmoke;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.padding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 15px;
+}
+
+a {
+    color: #1d7444;
+}
+.bg main{
+    background-image: url(https://img.freepik.com/premium-vector/stock-vector-seamless-pattern-linear-icons-electronic-equipment-kitchen-household_348818-1563.jpg) ;
+    background-size: 100%;
+
+}
+.intro table,.intro tr,.intro td{
+border: 1px solid black;
+color: goldenrod;
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+padding: 0.5rem;
+padding-left: 10px;
+}
+
+
+.box{
+    
+   
+    width: 1000px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgb(205, 205, 205);
+    border-radius: 4px;
+    border-color: black;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5 );
+    display: flex;
+
+}
+.box:hover{
+    box-shadow: 0 15px 15px rgba(0,0,0,.5 );
+}
+.box .imabx{
+    width: 150px;
+    flex: 0 0 150px ;
+}
+.box .imabx img{
+    max-width: 100%;
+}
+.box .content{
+    padding-left: 20px;
+}
+.box .content h2
+{
+    margin: 0;
+    padding-left: 0;
+    color: #ff005c;
+    
+}
+.box .content h3
+{
+    margin: 0;
+    padding-left: 0;
+    color: #1d7444;
+}
+.box .content p
+{
+    color: #000000;
+    margin: 0;
+   padding: 10px 0 0;
+   text-align: justify;
+}   
+.box .content table
+{
+    margin: 0;
+    padding-left: 0;
+    color:  brown;
+    
+    
+}  
+.box .content nav
+{
+    margin: 0;
+    padding-left: 0;
+    color: #000000;
+}   
+
+
+.box2{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #333(205, 205, 205);
+    border-radius: 4px;
+    border-color: black;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5 );
+    display: flex;
+
+}
